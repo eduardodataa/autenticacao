@@ -11,10 +11,6 @@ import br.com.auth.autenticacao.model.UsuarioModel;
 
 public class DetalheUsuarioData implements UserDetails{
 
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 1L;
 	
 	private final Optional<UsuarioModel>  usuario;
 	
